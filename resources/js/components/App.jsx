@@ -1,10 +1,10 @@
 import React from "react";
-import Router from "../router/Router";
+import RouterGeneral from "../routes/General/General";
 
 const App = () => {
     return (
         <div>
-            <Router />
+            <RouterGeneral />
         </div>
     )
 }

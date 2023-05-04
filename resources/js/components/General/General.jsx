@@ -2,7 +2,7 @@ import React from "react";
 
 const Index = () => {
     return (
-        <div>
+        <div className="container">
             <h1>account::index</h1>
         </div>
     )
