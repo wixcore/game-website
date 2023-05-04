@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Route;
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
+| Тут ви можете зареєструвати веб-маршрути для своєї програми. Ці
+| маршрути завантажуються RouteServiceProvider, і всі вони будуть
+| бути призначеним до групи проміжного програмного забезпечення "web".
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// Маршрут для головної сторінки сайту.
+Route::view('/', 'welcome');
